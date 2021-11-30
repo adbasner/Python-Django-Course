@@ -1,0 +1,21 @@
+/* comment
+
+selected tab {
+  property: value;
+} */
+
+h1 {
+  color:rebeccapurple;
+}
+
+li {
+  color: #428634;  
+}
+
+p {
+  color: rgb(255, 97, 0);
+}
+
+h4 {
+  color: rgba(255, 97, 0, 0.5);
+}
