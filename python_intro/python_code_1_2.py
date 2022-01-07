@@ -162,18 +162,29 @@ print(no_teen_sum(1, 2, 3))
 print(no_teen_sum(2, 13, 1))
 print(no_teen_sum(2, 1, 14))
 
-    #####################
-    ## -- PROBLEM 6 -- ##
-    #####################
+#####################
+## -- PROBLEM 6 -- ##
+#####################
 
-    # Return the number of even integers in the given array.
-    #
-    # Examples:
-    #
-    # count_evens([2, 1, 2, 3, 4]) → 3
-    # count_evens([2, 2, 0]) → 3
-    # count_evens([1, 3, 5]) → 0
+# Return the number of even integers in the given array.
+#
+# Examples:
+#
+# count_evens([2, 1, 2, 3, 4]) → 3
+# count_evens([2, 2, 0]) → 3
+# count_evens([1, 3, 5]) → 0
 
+print("*" * 25)
+print("Example 6")
+print("*" * 25)
 
-# def count_evens(nums):
-  # CODE GOES HERE
+def count_evens(nums):
+  count = 0
+  for num in nums:
+    if num % 2 == 0:
+      count = count + 1
+  return count 
+
+print(count_evens([2, 1, 2, 3, 4]))
+print(count_evens([2, 2, 0]))
+print(count_evens([1, 3, 5]))
